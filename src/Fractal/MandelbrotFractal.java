@@ -45,7 +45,7 @@ public class MandelbrotFractal extends Fractal {
                     image.setRGB(px, py, color.getRGB());
                 } else{
                     int shade = (int) (255.0 * iter/getMaxIter());
-                    color = new Color(shade, 0, 255 - shade);
+                    color = new Color(shade, 150, 255 - shade);
                     image.setRGB(px, py, color.getRGB());
                 }
             }
