@@ -15,7 +15,7 @@ public class Main {
         int typeToGenerate = Integer.parseInt(
                 JOptionPane.showInputDialog("Please enter the type of fractal you would like to generate: \n " +
                         "1. Mandelbrot Set\n" +
-                        "2. Julia Set\n"));
+                        "2. Normal Julia Fractal\n"));
 
         int numIters = Integer.parseInt(
                 JOptionPane.showInputDialog("Please enter the number of iterations you would like to do: "
