@@ -58,8 +58,4 @@ public class Fractal {
     public int getMaxIter(){
         return numIterations;
     }
-
-    public void setMaxIter(int iter){
-        this.numIterations = iter;
-    }
 }

@@ -6,9 +6,10 @@ import Fractal.MandelbrotFractal;
 import java.awt.*;
 
 public class FractalPanel extends JPanel {
-    MandelbrotFractal fractal;
+    Fractal fractal;
 
-    public FractalPanel(MandelbrotFractal fractal) {
+
+    public FractalPanel(Fractal fractal) {
         this.fractal = fractal;
     }
 
